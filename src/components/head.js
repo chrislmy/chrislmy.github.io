@@ -66,9 +66,3 @@ Head.propTypes = {
   description: PropTypes.string,
   image: PropTypes.string,
 };
-
-Head.defaultProps = {
-  title: null,
-  description: null,
-  image: null,
-};
