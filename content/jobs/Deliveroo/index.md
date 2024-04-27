@@ -1,11 +1,13 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2021-12-01'
+title: 'Senior Software Engineer'
+company: 'Deliveroo'
+location: 'London, United Kingdom'
+range: 'December 2021 - Present'
+url: 'https://deliveroo.co.uk/'
 ---
+
+<p style="padding-bottom:10px">Build and maintai scalable backend systems for 'Dispatcher,' the platform that drives algorithms to efficiently assign riders to orders.</p>
 
 - Developed and styled interactive web applications for Apple Music using Ember and SCSS
 - Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
