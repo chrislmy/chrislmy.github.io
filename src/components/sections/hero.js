@@ -67,7 +67,7 @@ const Hero = () => {
       <p>
         I'm currently a software engineer based in London and have been here for about 9 years now.
         My specialty is building scalable and reliable backends, though I've also dabbled in full
-        stack roles in the past. Check out my CV below!
+        stack roles in the past.
       </p>
     </>
   );
