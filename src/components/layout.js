@@ -10,7 +10,7 @@ const StyledContent = styled.div`
   min-height: 100vh;
 `;
 
-const Layout = ({ children }) => {
+const Layout = ({ children, location }) => {
   const isHome = location.pathname === '/';
   return (
     <>

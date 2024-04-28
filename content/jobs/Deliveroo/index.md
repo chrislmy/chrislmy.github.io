@@ -7,9 +7,12 @@ range: 'December 2021 - Present'
 url: 'https://deliveroo.co.uk/'
 ---
 
-<p style="padding-bottom:10px">Build and maintai scalable backend systems for 'Dispatcher,' the platform that drives algorithms to efficiently assign riders to orders.</p>
+<p style="padding-bottom:10px">Build and maintain scalable backend systems for 'Dispatcher', the platform that drives algorithms to efficiently assign riders to orders.</p>
 
-- Developed and styled interactive web applications for Apple Music using Ember and SCSS
-- Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
-- Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback
-- Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications
+<ul>
+<li>Collaborate with operational scientists and data scientists to productionize algorithms and predictive models for optimizing rider delivery assignments, utilizing Rust.</li>
+<li>Develop and maintain the infrastructure supporting dispatch algorithms and predictive models using Ruby, Go, and various cloud technologies.</li>
+<li>Lead the enhancement of our order stacking algorithm, resulting in significantly improved efficiency of rider deliveries and a substantial reduction in operational costs.</li>
+<li>Key contributor in migrating the team&#39;s data store from PostgreSQL to DynamoDB, enhancing database performance and scalability, which was subsequently featured in an <a class="inline-link" href="https://aws.amazon.com/blogs/database/how-deliveroo-migrated-their-dispatcher-service-to-amazon-dynamodb/">AWS blog post</a>.</li>
+</ul>
+ 

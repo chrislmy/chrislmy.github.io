@@ -12,5 +12,6 @@ Worked as a full stack engineer where I developed features for Capital One's cus
 and built internal tools for agents to help customers improve their credit scores.
 </p>
 
-- Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community
-- Built and delivered technical solutions according to stakeholder business requirements
+- Worked on developing scalable RESTful microservices for an application used by agents to set up credit card payment plans.
+- Championed the migration of our ETL pipeline to AWS message queues (SQS) with AWS Lambda, increasing reliability of events sent to our data lake to 99.999%.
+- Developed a NodeJS command line tool to simplify the management of application secrets, currently used by multiple engineering teams across the company.

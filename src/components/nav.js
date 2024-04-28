@@ -150,6 +150,36 @@ const StyledLinks = styled.div`
   }
 `;
 
+const BlinkyLink = styled.div`
+  a {
+    &:after {
+      content: '_';
+      animation: blink 2s infinite;
+      @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        1% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 0;
+        }
+        51% {
+          opacity: 1;
+        }
+      }
+    }
+    font-size: var(--fz-xxl);
+    font-family: var(--font-mono);
+    &:hover,
+    &:focus {
+      background-color: transparent;
+      color: var(--green);
+    }
+  }
+`;
+
 const Nav = ({ isHome }) => {
   const [isMounted, setIsMounted] = useState(!isHome);
   const scrollDirection = useScrollDirection('down');
@@ -182,27 +212,9 @@ const Nav = ({ isHome }) => {
   const fadeDownClass = isHome ? 'fadedown' : '';
 
   const Logo = (
-    <div className="logo" tabIndex="-1">
-      {isHome ? (
-        <a href="/" aria-label="home">
-          <div className="hex-container">
-            <IconHex />
-          </div>
-          <div className="logo-container">
-            <IconLogo />
-          </div>
-        </a>
-      ) : (
-        <Link to="/" aria-label="home">
-          <div className="hex-container">
-            <IconHex />
-          </div>
-          <div className="logo-container">
-            <IconLogo />
-          </div>
-        </Link>
-      )}
-    </div>
+    <BlinkyLink>
+      <Link to="/">&gt;</Link>
+    </BlinkyLink>
   );
 
   const ResumeLink = (
