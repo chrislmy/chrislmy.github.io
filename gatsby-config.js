@@ -2,10 +2,9 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Christopher Lau',
-    description:
-      'Brittany Chiang is a experienced software engineer who specializes in building digital solutions.',
-    siteUrl: 'https://chrislmy.github.io', // No trailing slash allowed!
+    title: 'Christopher Lau | Software Engineer',
+    description: 'Christopher Lau is a software engineer with extensive experience in building high quality digital solutions.',
+    siteUrl: 'https://chrislmy.github.io',
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
@@ -146,12 +145,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-45666519-2',
       },
     },
   ],
