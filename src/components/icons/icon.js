@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
-  IconAppStore,
   IconBookmark,
   IconCodepen,
   IconExternal,
@@ -16,11 +15,11 @@ import {
   IconStar,
   IconTwitter,
 } from '@components/icons';
+import { IconCreditCard, IconDatabase } from '.';
+import Music from './music';
 
 const Icon = ({ name }) => {
   switch (name) {
-    case 'AppStore':
-      return <IconAppStore />;
     case 'Bookmark':
       return <IconBookmark />;
     case 'Codepen':
@@ -47,6 +46,12 @@ const Icon = ({ name }) => {
       return <IconStar />;
     case 'Twitter':
       return <IconTwitter />;
+    case 'CreditCard':
+      return <IconCreditCard />;
+    case 'Database':
+      return <IconDatabase />;
+    case 'Music':
+      return <Music />;
     default:
       return <IconExternal />;
   }

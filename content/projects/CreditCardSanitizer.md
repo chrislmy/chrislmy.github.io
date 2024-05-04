@@ -8,6 +8,7 @@ tech:
   - Maven
   - PII
 company: ''
+icon: 'CreditCard'
 showInProjects: true
 ---
 

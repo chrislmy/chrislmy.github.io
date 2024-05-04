@@ -8,6 +8,7 @@ tech:
   - DynamoDB
   - PostgreSQL
 company: 'Deliveroo'
+icon: 'Database'
 showInProjects: true
 ---
 

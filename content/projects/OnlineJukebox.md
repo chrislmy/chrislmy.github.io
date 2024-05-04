@@ -8,6 +8,7 @@ tech:
   - Youtube API
   - WebSockets
 company: ''
+icon: 'Music'
 showInProjects: true
 ---
 

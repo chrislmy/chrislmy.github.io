@@ -152,7 +152,7 @@ const About = () => {
             </p>
 
             <p>
-              After graduating, and I’ve had the privilege of working at{' '}
+              After graduating, I’ve had the privilege of working at{' '}
               <a href="https://deliveroo.co.uk/" target="_blank">
                 one of UK's largest food delivery company
               </a>
